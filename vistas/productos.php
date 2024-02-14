@@ -69,3 +69,19 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+    <script>
+      var accion;
+      var table;
+
+      var Toast = Swal.mixin({
+        toast: true,
+        position: 'top',
+        showConfirmButton: false,
+        timer: 3000
+      });
+      $(document).ready(function() {
+        $.ajax({
+          url: ..
+        });
+      });
+    </script>
